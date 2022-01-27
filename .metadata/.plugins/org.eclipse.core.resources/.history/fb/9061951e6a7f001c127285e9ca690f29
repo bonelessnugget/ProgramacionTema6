@@ -1,0 +1,20 @@
+/**
+ * Leer un vector de 10 componentes enteros; calcular el mayor, el menor y los lugares donde se
+encuentran.
+ * @author yszee
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		int[] vector = new int[] {1,2,3,4,5,6,7,8,9,10};
+		int valorMax = vector[0];
+		for (int i = 0; i<vector.length; i++) {
+			if(vector[i] > valorMax) {
+				valorMax = vector[i];
+			}
+		}
+		System.out.println("valorMax " + valorMax);
+	}
+
+}

@@ -1,0 +1,35 @@
+/**
+ * Generar dos vectores de dimensión 10 (dar valores aleatorios entre 1 y 5) y comprobar para
+cada uno de los elementos del primer vector cuántas veces está en el segundo, es decir
+primero: 3,7,2
+segundo: 3,3,5
+el resultado debe ser:
+elemento 1 (3): 2 veces
+elemento 2 (7): 0 veces
+elemento 3 (2): 0 veces
+ * @author yszee
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		int[] vector1 = new int[10];
+		int[] vector2 = new int[10];
+		int uno=0;
+		int dos=0;
+		int tres=0;
+		int cuatro = 0;
+		int cinco = 0;
+		for (int i = 0; i<vector1.length; i++) {
+			vector1[i]=(int) (Math.random()*5);
+			System.out.print(" " + vector1[i]);
+			
+		}
+		System.out.println(" ");
+		for(int k = 0; k<vector2.length; k++) {
+			vector2[k]=(int) (Math.random()*5);
+			System.out.print(" " + vector2[k]);
+		}
+	}
+
+}
