@@ -1,0 +1,62 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "type": "java",
+          "name": "Launch External Terminal",
+          "request": "launch",
+          "console": "externalTerminal",
+          "mainClass": ""
+      },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Ejercicio1"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main(1)",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Ejercicio2"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main(2)",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Ejercicio3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main(3)",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Ejercicio4"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main(4)",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Ejercicio5"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main(5)",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "ProgramacionTema6_f15b1208"
+    }
+  ]
+}
