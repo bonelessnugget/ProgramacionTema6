@@ -17,6 +17,6 @@ public class Empleado {
 	}
 	
 	public void verDatos() {
-		System.out.println("Nombre: " + nombre + " | " + "Numero: " + numero);
+		System.out.println("Nombre: " + "lil "+ nombre + " | " + "Numero: " + numero);
 	}
 }

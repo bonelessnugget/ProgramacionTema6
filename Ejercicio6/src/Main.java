@@ -12,7 +12,7 @@ public class Main {
 		String caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 		StringBuilder sb = new StringBuilder();
 		Random random = new Random();
-		int tamaño = (int) (Math.random()*(10-4)+4);
+		int tamaño = (int) (Math.random()*(15-5)+5);
 		for (int i=0; i<tamaño; i++) {
 			int index = random.nextInt(caracteres.length());
 			char randomChar = caracteres.charAt(index);
